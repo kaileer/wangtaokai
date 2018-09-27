@@ -1,0 +1,28 @@
+{
+  "name": "wangtaokai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "pm2": "pm2 deploy ecosystem.json production setup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaileer/wangtaokai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaileer/wangtaokai/issues"
+  },
+  "homepage": "https://github.com/kaileer/wangtaokai#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "koa": "^2.5.3",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.4"
+  }
+}
