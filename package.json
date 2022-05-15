@@ -21,7 +21,7 @@
   "devDependencies": {},
   "dependencies": {
     "ejs": "^2.6.1",
-    "koa": "^2.5.3",
+    "koa": "^2.13.4",
     "koa-static": "^5.0.0",
     "koa-views": "^6.1.4"
   }
